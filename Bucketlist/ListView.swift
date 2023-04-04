@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ListView: View {
     let item : Location
+    private var locationList: [Location]{
+        Location(id:UUID(),name: "New York")
+        Location(id: UUID(), name: "Brooklyn")
+    }
     
     var body: some View {
         List{
             
                 Section(item.name){
-                    ForEach(section.item){
-                        
+                    ForEach(locationList){ locationList in
+                        Section{
+                            Text(locationList.name)
+                        }
                     }
                 }
                 
