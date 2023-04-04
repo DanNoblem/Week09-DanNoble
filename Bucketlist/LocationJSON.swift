@@ -1,6 +1,9 @@
 //
-//  ModelJSON.swift
-//  Created by jht2 on 1/15/22.
+//  ListView.swift
+//  Bucketlist
+//
+//  Created by Daniel Wai on 4/3/23.
+//
 
 import SwiftUI
 
